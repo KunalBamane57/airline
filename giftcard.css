@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Marcellus', serif;
+    cursor: context-menu;
+}
+#container-1{
+    height: 70px;
+    width: 100%;
+    font-size:22px;
+    display: flex;
+    background-color: red;
+    /* background:linear-gradient(0deg, white ,#ff4747, red); */
+    position:fixed;
+    /* background-color: transparent;
+    background: transparent linear-gradient(180deg, red,transparent) 0 0 no-repeat padding-box; */
+    /* transition: all .1s ease; */
+    animation-name: k1;
+    animation-duration: 1.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-out;
+}
+@keyframes k1
+{
+    0%
+    {
+       height: 0px;
+    }
+    /* 25%
+    {
+        height: 15px;
+    }
+    50%
+    {
+        height: 30px;
+    }
+    75%
+    {
+        height: 45px;
+    } */
+    100%
+    {
+        height: 70px;
+    }
+}
+.logo{
+    height: 50px;
+    width: 10%;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+.logo img{
+    height: 50px;
+    width: 150px;
+    animation-name: k2;
+    animation-duration: 1.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-out;
+}
+@keyframes k2
+{
+    0%
+    {
+       height: 0px;
+    }
+    100%
+    {
+        height: 50px;
+    }
+}
+.navbar{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar li{
+    display: flex;
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px grey;
+}
+.navbar a{
+    color: white;
+    text-decoration:none ;
+}
+.navbar a:hover{
+    color: rgb(219, 219, 219);
+    cursor: pointer;    
+}
+.login{
+    height: 60px;
+    color: white;
+    text-shadow: 2px 2px 2px grey;
+    /* border: 2px solid black; */
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    animation-name: k3;
+    animation-duration: 1.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-out;
+    margin-top: 5px;
+}
+@keyframes k3
+{
+    0%
+    {
+       height: 0px;
+    }
+    100%
+    {
+        height: 60px;
+    }
+}
+.login:hover{
+    color: rgb(219, 219, 219);
+    cursor: pointer;    
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.coupons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* padding: 20px; */
+    /* margin-top: 20px; */
+    padding-top: 150px;
+    background-color:white;
+    justify-content: space-around;
+}
+.coupans1{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+    margin-top: 20px;
+    background-color:white;
+}
+
+.coupon {
+    border: 1px solid #ddd;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.get-deal-button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.footer{
+    height: 1020px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.small-element13{
+    display: flex;
+    height: 230px;
+    /* width: 85%; */
+    padding: 0px 120px;
+    color: darkgray;
+    justify-content: center;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+.foot1{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    /* justify-content: center; */
+    /* opacity: 0.9; */
+    -webkit-font-smoothing: antialiased;
+    /* justify-content: space-between; */
+}
+.foot1 li{
+    display: flex;
+}
+.foot1 li:hover{
+    text-decoration: underline;
+    cursor: context-menu;
+}
+
+.innerfoot1{
+    color: white;
+}
+.small-element14{
+    display: flex;
+    height: 600px;
+    color: darkgray;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+.foot2{
+    margin: 0px 18px;
+    height: 400px;
+    width: 360px;
+    margin-top: 50px;
+
+}
+.foot2 input{
+    height: 40px;
+    width: 200px;
+    padding-left: 10px
+}
+.foot2 button{
+    height: 43px;
+    width: 100px;
+    margin-left: 20px;
+    background-color: #333;
+    border: 2px solid white;
+    color: white;
+    border-radius: 2px;
+}
+.foot2 button:hover{
+    background-color: white;
+    color: black;
+}
+.foot2 img{
+    height: 160px;
+    width: 280px;
+}
+.footimg img{
+    margin-top: 30px;
+    height: 45px;
+    width: 160px;
+    margin-bottom: 55px;
+    border-radius: 9px;
+}
+.innerfoot2{
+    color: white;
+}
+.foot3{
+    height: 87px;
+    width: 1158px;
+    margin-top: 20px;
+}
+.social img{
+    height: 100px;
+    width: 300px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+.little-2{
+    color: white;
+}
+.small-element12{
+    background-color: #262626;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 180px;
+}
+.container{
+    padding: 2px 16px;
+    /* background-color: #f1f1f1; */
+}
+.container p{
+    font-size: 18px;
+}
+.promo{
+    background:#f1f1f1;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.expire{
+    color: red;
+}
